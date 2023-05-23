@@ -5,7 +5,7 @@ createApp({
         return{
             apiUrl: 'server.php',
             data: '',
-            currentDisco: 0,
+            currentDisco: '',
         }
     },
     methods: {
@@ -17,7 +17,11 @@ createApp({
         },
         overlayDisco(index){
             this.currentDisco = index
+            document.querySelector('.overlay').classList.add('active')
         },
+        closeOverlay(){
+            document.querySelector('.overlay').classList.remove('active')
+        }
     },
     mounted(){
         this.chiamataApi();
