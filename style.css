@@ -1,0 +1,40 @@
+#web-app{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+header, footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(74, 74, 74);
+}
+
+.container{
+    height: 100%;
+}
+
+.card{
+    width: 30%;
+    background-color: rgb(5, 30, 59);
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+#div-img{
+    width: 100%;
+}
+
+#div-img img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
